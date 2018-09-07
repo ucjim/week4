@@ -5,17 +5,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            const double i = 123.456789d;
+            string name = "Hello";
 
-            Console.WriteLine("{0:F1}", i);
+            char ch;
 
-            Console.WriteLine("{0:F2}", i);
+            Console.Write("Press a key followed by ENTER:");
 
-            Console.WriteLine("{0:F3}", i);
+            ch = (char)Console.Read();  // get a char 
 
-            Console.WriteLine("{0:F4}", i);
-
-            Console.WriteLine("{0:F5}", i);
+            Console.WriteLine("Your key is: " + ch);
             Console.ReadKey();
         }
     }
