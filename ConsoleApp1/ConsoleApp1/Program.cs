@@ -5,29 +5,23 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            try
+            String name, Lastname; ;
+            int ID;
+            double GPA;
+            Console.Write("Name: ");
+            name = Console.ReadLine();
+            Console.Write("Lastname: ");
+            Lastname = Console.ReadLine();
+            Console.Write("ID Student:");
+            int.TryParse(Console.ReadLine(), out ID);
+            Console.Write("GPA:");
+            double.TryParse(Console.ReadLine(), out GPA);
 
-            {
+            Console.WriteLine(" Name: {0}", name);
+            Console.WriteLine("Lastname : {0}", Lastname);
+            Console.WriteLine("ID Student:", ID);
+            Console.WriteLine("GPA: {0}", GPA);
 
-                Console.Write("Please enter value 1 :");
-
-                int val1 = Convert.ToInt32(Console.ReadLine());
-
-                Console.Write("Please enter value 2 :");
-
-                int val2 = Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine("Answer = " + (val1 + val2));
-
-            }
-
-            catch (Exception e)
-
-            {
-
-                Console.WriteLine("Error : " + e.ToString());
-
-            }
             Console.ReadKey();
         }
     }
