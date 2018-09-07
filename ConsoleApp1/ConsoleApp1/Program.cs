@@ -5,15 +5,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string name = "Hello";
+            string str;
 
-            char ch;
+            Console.Write("Enter some characters.");
 
-            Console.Write("Press a key followed by ENTER:");
+            str = Console.Read();
 
-            ch = Console.Read();  // get a char 
-
-            Console.WriteLine("Your key is: " + ch);
+            Console.WriteLine("You entered: " + str);
             Console.ReadKey();
         }
     }
