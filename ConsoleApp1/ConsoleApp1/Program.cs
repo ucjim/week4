@@ -7,11 +7,11 @@ namespace ConsoleApp1
         {
             string str;
 
-            Console.Write("Enter some characters.");
+            Console.Write("Please enter value 1 : ");
 
-            str = Console.Read();
+            int val1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("You entered: " + str);
+            Console.WriteLine(val1);
             Console.ReadKey();
         }
     }
