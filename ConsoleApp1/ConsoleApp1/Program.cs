@@ -28,7 +28,6 @@ namespace ConsoleApp1
                 Console.WriteLine("Error : " + e.ToString());
 
             }
-            Console.ReadKey();
         }
     }
 }
