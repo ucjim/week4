@@ -5,7 +5,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("This is text 1.");
+
+            Console.WriteLine("This is text 2.");
+
+            Console.WriteLine("This is text 3.");
             Console.ReadKey();
         }
     }
