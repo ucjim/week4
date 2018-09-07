@@ -5,23 +5,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            String name, Lastname; ;
-            int ID;
-            double GPA;
-            Console.Write("Name: ");
-            name = Console.ReadLine();
-            Console.Write("Lastname: ");
-            Lastname = Console.ReadLine();
-            Console.Write("ID Student:");
-            int.TryParse(Console.ReadLine(), out ID);
-            Console.Write("GPA:");
-            double.TryParse(Console.ReadLine(), out GPA);
+            Console.WriteLine("Data type : int");
 
-            Console.WriteLine(" Name: {0}", name);
-            Console.WriteLine("Lastname : {0}", Lastname);
-            Console.WriteLine("ID Student:", ID);
-            Console.WriteLine("GPA: {0}", GPA);
+            Console.WriteLine("Size :" + sizeof(int));
 
+            Console.WriteLine("Minimum Value :" + int.MinValue);
+
+            Console.WriteLine("Maximum Value :" + int.MaxValue);
             Console.ReadKey();
         }
     }
